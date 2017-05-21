@@ -54,7 +54,7 @@
 /* TODO User level functions prototypes (i.e. InitApp) go here */
 void            InitApp(void);         /* I/O and Peripheral Initialization */
 void            LCDInit(void);
-void            SendCommand(unsigned char cmd);     // For commands and shit
+void            SendCommand(unsigned char cmd);     // For commands
 void            SendCharacter(unsigned char val);
 void            LCDReady(void);        // Test if BF is busy
 void            PulseE(void);
